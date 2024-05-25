@@ -1,0 +1,1 @@
+python ./tools/test.py /home/zf/Large-Selective-Kernel-Network/work_dirs/lsk_double_filter_t_fpn_1x_yami_le90_fp16_r75_classblance6/lsk_double_filter_t_fpn_1x_yami_le90_fp16_r75_classblance6.py /home/zf/Large-Selective-Kernel-Network/work_dirs/lsk_double_filter_t_fpn_1x_yami_le90_fp16_r75_classblance6/epoch_10.pth --eval mAP

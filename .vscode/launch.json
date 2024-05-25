@@ -1,0 +1,36 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "name": "Python: train.py",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "program": "/home/zf/Large-Selective-Kernel-Network/tools/train.py",
+        //     "console": "integratedTerminal",
+        //     "justMyCode": false,
+        //     "args": [
+        //         "/home/zf/Large-Selective-Kernel-Network/configs/lsknet/lsk_t_pfcc_fpn_1x_yami_le90_fp16_r75_classblance6.py"
+        //     ]
+
+        // },
+        {
+            "name": "Python: test.py",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/zf/Large-Selective-Kernel-Network/tools/test.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "/home/zf/Large-Selective-Kernel-Network/configs/yami2/lsk_double_s_filter087_fpn_1x_yami2_le90_fp16_r75_classblance6_hard012_1312_ema.py",
+                "/home/zf/Large-Selective-Kernel-Network/work_dirs/lsk_double_s_filter087_fpn_1x_yami2_le90_fp16_r75_classblance6_hard012_1312_ema/epoch_12.pth",
+                "--eval","mAP"
+                // "--format-only",
+                // "--eval-options","submission_dir=/home/zf/Large-Selective-Kernel-Network/work_dirs/lsk_double_s_filter087_fpn_1x_yami2_le90_fp16_r75_classblance6_hard012_1312_ema/lsk_s_hard12_filter871312_ema_tta_wsl2_0025"
+            ],
+        //    "env":{"CUDA_VISIBLE_DEVICES":"-1" }
+        }
+    ]
+}
