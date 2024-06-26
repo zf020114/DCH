@@ -17,8 +17,8 @@ LSKNet backbone code is placed under mmrotate/models/backbones/, and the train/t
 
 |                           Model                            |  mAP  | FPS | lr schd | Batch Size |                                   Configs                                    |                                                               Download                                                               |     note     |
 | :--------------------------------------------------------: | :---: | :---: | :-----: | :--------: | :--------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :----------: |
-|                  双分类头+错误标签过滤+ Margin交叉熵损失                   | 75.7 | 36.2  |   1x    |    10    |     [sk_double_filter_t_fpn_1x_yami_le90_fp16_r75_classblance6](./configs/lsknet
-/lsk_double_filter_t_fpn_1x_yami_le90_fp16_r75_classblance6.py)     | [model] | [log]|              |
+|                  双分类头+错误标签过滤+ Margin交叉熵损失                   | 75.7 | 36.2  |   1x    |    10    |     [sk_double_filter_t_fpn_1x_yami_le90_fp16_r75_classblance6](./configs/lsknet/lsk_double_filter_t_fpn_1x_yami_le90_fp16_r75_classblance6.py) 
+    | [model] | [log]|              |
 
 
 
