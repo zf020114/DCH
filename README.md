@@ -18,14 +18,9 @@ LSKNet backbone code is placed under mmrotate/models/backbones/, and the train/t
 |                           Model                            |  mAP  | FPS | lr schd | Batch Size |                                   Configs                                    |                                                               Download                                                               |     note     |
 | :--------------------------------------------------------: | :---: | :---: | :-----: | :--------: | :--------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | :----------: |
 |                  双分类头+错误标签过滤+ Margin交叉熵损失                   | 75.7 | 36.2  |   1x    |    10    |     [sk_double_filter_t_fpn_1x_yami_le90_fp16_r75_classblance6](./configs/lsknet
-/lsk_double_filter_t_fpn_1x_yami_le90_fp16_r75_classblance6.py)     | [model](https://download.openmmlab.com/mmrotate/v1.0/lsknet/lsk_t_fpn_1x_dota_le90/lsk_t_fpn_1x_dota_le90_20230206-3ccee254.pth) \| [log](https://download.openmmlab.com/mmrotate/v1.0/lsknet/lsk_t_fpn_1x_dota_le90/lsk_t_fpn_1x_dota_le90_20230206.log) |              |
+/lsk_double_filter_t_fpn_1x_yami_le90_fp16_r75_classblance6.py)     | [model] | [log]|              |
 
-FAIR1M-1.0
 
-|         Model         |  mAP  | Angle | lr schd | Batch Size |                                                    Configs                                                     |                                                                                                                                                                              Download     | note                                                                                                                                                                         |
-| :----------------------: | :---: | :---: | :-----: | :------: | :------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------: |
-| [O-RCNN](https://arxiv.org/abs/2108.05699) (1024,1024,200) | 45.60 | le90  |   1x    |    1*8     |  [oriented_rcnn_r50_fpn_1x_fair_le90](./configs/oriented_rcnn/oriented_rcnn_r50_fpn_1x_fair_le90.py)  |      -   | Prev. Best |
-| LSKNet_S (1024,1024,200) | 47.87 | le90  |   1x    |    1*8     |            [lsk_s_fpn_1x_dota_le90](./configs/lsknet/lsk_s_fpn_1x_dota_le90.py)             |         [model](https://pan.baidu.com/s/1sXyi23PhVwpuMRRdwsIJlQ?pwd=izs8) \| [log](https://pan.baidu.com/s/1idHq3--oyaWK3GWYqd8brQ?pwd=zznm)         | |
 
 ## Installation
 
